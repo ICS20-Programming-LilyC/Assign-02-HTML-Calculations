@@ -1,0 +1,31 @@
+/* Created by: Lily C
+* Created on: 03/23/2023
+* This CSS file defines the style for index.html
+* Assign-02-HTML-Calculations
+*/
+
+body {
+  background-color: lavender;
+}
+
+h1 {
+  background-color: #b5aadf;
+  color: hsl(293deg 100% 34%);
+  padding: 40px;
+  text-align: center;
+}
+
+h3 {
+  background-color: #b29ad6;
+  color: #fff;
+}
+
+div {
+  font-weight: bold;
+  color: #fff;
+  margin: 5px;
+}
+
+#display-results {
+  background-color: #805298;
+}
