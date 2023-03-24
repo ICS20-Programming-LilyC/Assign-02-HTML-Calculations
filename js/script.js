@@ -20,6 +20,6 @@ function enterClicked () {
 
   // output
   document.getElementById('total-price').innerHTML = 'Discouted price is: $ ' + totalPrice.toFixed(2)
-}
 
-  document.getElementById('discount-amount').innerHTML = 'You will recieve $ ' + discountAmount.toFixed(2) + "off."
+  document.getElementById('discount-amount').innerHTML = 'You will recieve $ ' + discountAmount.toFixed(2) + " off."
+  }
