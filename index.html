@@ -13,8 +13,8 @@
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.pngg">
-    <link rel="manifest" href="./fav_index/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site[1].webmanifest">
     <link rel="stylesheet" href="./css/style.css">
 
     <!--Title-->
@@ -28,11 +28,11 @@
     <p>
       <h3>Please answer the following to calculate your discounted price with tax:</h3>
     <form action="javascript:enterClicked()">
-      <label for="orginalprice">Price of your purchase</label>
+      <label for="originalPrice">Price of your purchase</label>
       <input type="float" id="orginal-price" placeholder="Price ($)">
       <br>
       <br>
-      <label for="discountrate">Discount rate</label>
+      <label for="discountRate">Discount rate</label>
       <input type="float" id="discount-rate" placeholder="(Write as a decimal)">
       <br>
       <br>
@@ -45,5 +45,18 @@
     </div>
     <div id="discount-amount">
     </div>
+    <br>
+    <br>
+  <h4>Did you find this website helpful?</h4>
+
+  <!--MDL components-->
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+      <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+      <span class="mdl-radio__label">Yes!</span>
+    </label>
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+      <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+      <span class="mdl-radio__label">No</span>
+    </label>
   </body>
 </html>

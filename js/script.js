@@ -9,18 +9,17 @@
 /**
  * This function calculates the discount from your purchases.
  */
-function calculate () {
+function enterClicked () {
   // input
-  let orginal-price = parseFloat(document.getElementById('orginal-price').value);
-  let discount-rate = parseFloat(document.getElementById('discount-rate').value);
+  let originalPrice = parseFloat(document.getElementById('orginal-price').value);
+  let discountRate = parseFloat(document.getElementById('discount-rate').value);
 
   // process
-  let discount-amount = orginal-price * discount-rate;
-  let total-price = orginal-price - discount-amount;
+  let discountAmount = originalPrice * discountRate;
+  let totalPrice = originalPrice- discountAmount;
 
   // output
-  document.getElementById('total-price').innerHTML = 'Discouted price is: $ ' + total-price.toFixed(2)
+  document.getElementById('total-price').innerHTML = 'Discouted price is: $ ' + totalPrice.toFixed(2)
 }
 
-  document.getElementById('discount-amount').innerHTML = 'You will recieve $ ' + discount-amount.toFixed(2) + "off."
-}
+  document.getElementById('discount-amount').innerHTML = 'You will recieve $ ' + discountAmount.toFixed(2) + "off."

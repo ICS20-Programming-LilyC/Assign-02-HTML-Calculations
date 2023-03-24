@@ -20,6 +20,11 @@ h3 {
   color: #3d7156;
 }
 
+h4 {
+  color: #3d7156;
+  font-weight: bold;
+}
+
 div {
   font-weight: lighter;
   color: #debb8c
