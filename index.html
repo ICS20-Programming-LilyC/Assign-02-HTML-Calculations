@@ -18,14 +18,22 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!--Title-->
-    <title>My webpage that calculates your precent discounts</title>
+    <title>Precent Discount Calculator</title>
   </head>
   <body>
 
-    <!--Javascript fonctions-->
+     <!--Header-->
     <script src="./js/script.js"></script>
     <h1>Calculating Percent Discounts</h1>
-    <p>
+  
+    <!--Breif Explantion of webpage-->
+    <center>
+    <p>We all love discounts on our purchases. Buying things on sale, allows us to save money and it opens up space for the newest arrivials to come in. However, sometimes it can be hard to mentally figure out how much you will end up paying, with the discounts inpalce. Below you can find a dicount calculator that will determine your final price for you! So you can be confidant in your purchases, just like this man is below.</p>
+      <iframe src="https://giphy.com/embed/l2QDSKSkhqITBLYBy" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/amazon-ad-l2QDSKSkhqITBLYBy"></a></p>
+    </center>
+    <br>
+
+    <!--Javascript fonctions-->
       <h3>Please answer the following to calculate your discounted price:</h3>
     <form action="javascript:enterClicked()">
       <label for="originalPrice">Price of your purchase</label>
@@ -50,9 +58,17 @@
     <img src="./images/discounts.png">
     </center>
     <br>
-    <h4>Did you find this website helpful?</h4>
 
     <!--MDL components-->
+          <h4>Adujst the slider to your personal enjoyment of shopping with discounts!</h4>
+
+    <!--Default Slider-->
+      <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0">
+    <br>
+    <br>
+    <h4>Did you find this website helpful?</h4>
+
+    <!--Radio button-->
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
       <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
       <span class="mdl-radio__label">Yes!</span>

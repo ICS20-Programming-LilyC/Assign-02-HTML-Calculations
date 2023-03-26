@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  background-color: #71a88e;
+  background-color: rgb(113 168 142);
   color: hsl(34deg 55% 71%);
   padding: 40px;
   text-align: center;
@@ -23,6 +23,10 @@ h3 {
 h4 {
   color: #3d7156;
   font-weight: bold;
+}
+
+p {
+  color: #79469b
 }
 
 div {
