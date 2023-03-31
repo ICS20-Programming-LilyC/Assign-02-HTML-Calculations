@@ -15,11 +15,11 @@ function enterClicked () {
   let discountRate = parseFloat(document.getElementById('discount-rate').value);
 
   // process
-  let discountAmount = originalPrice * discountRate;
-  let totalPrice = originalPrice- discountAmount;
+  let discountAmount = originalPrice - originalPrice * discountRate;
+  let totalPrice = originalPrice - discountAmount;
 
   // output
-  document.getElementById('total-price').innerHTML = 'Discounted price is: $ ' + totalPrice.toFixed(2)
+  document.getElementById('discount-amount').innerHTML = 'Discounted price is: $ ' + discountAmount.toFixed(2)
 
-  document.getElementById('discount-amount').innerHTML = 'You will receive $ ' + discountAmount.toFixed(2) + " off."
+  document.getElementById('total-price').innerHTML = 'You will receive $ ' + totalPrice.toFixed(2) + " off."
   }
