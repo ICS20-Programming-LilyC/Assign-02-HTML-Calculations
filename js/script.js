@@ -11,7 +11,7 @@
  */
 function enterClicked () {
   // input
-  let originalPrice = parseFloat(document.getElementById('orginal-price').value);
+  let originalPrice = parseFloat(document.getElementById('original-price').value);
   let discountRate = parseFloat(document.getElementById('discount-rate').value);
 
   // process
@@ -19,7 +19,7 @@ function enterClicked () {
   let totalPrice = originalPrice- discountAmount;
 
   // output
-  document.getElementById('total-price').innerHTML = 'Discouted price is: $ ' + totalPrice.toFixed(2)
+  document.getElementById('total-price').innerHTML = 'Discounted price is: $ ' + totalPrice.toFixed(2)
 
-  document.getElementById('discount-amount').innerHTML = 'You will recieve $ ' + discountAmount.toFixed(2) + " off."
+  document.getElementById('discount-amount').innerHTML = 'You will receive $ ' + discountAmount.toFixed(2) + " off."
   }
