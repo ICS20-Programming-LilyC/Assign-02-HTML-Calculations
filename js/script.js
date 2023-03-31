@@ -19,7 +19,7 @@ function enterClicked () {
   let totalPrice = originalPrice - discountAmount;
 
   // output
-  document.getElementById('discount-amount').innerHTML = 'Discounted price is: $ ' + discountAmount.toFixed(2)
+  document.getElementById('discount-amount').innerHTML = 'Discounted price is $ ' + discountAmount.toFixed(2)
 
   document.getElementById('total-price').innerHTML = 'You will receive $ ' + totalPrice.toFixed(2) + " off."
   }
